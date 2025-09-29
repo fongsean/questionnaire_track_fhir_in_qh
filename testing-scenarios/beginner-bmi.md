@@ -1,16 +1,16 @@
 # Beginner - BMI Calculator Questionnaire
 
-#### Objective:
+## Objective:
 
 Build a BMI calculator Questionnaire that demonstrates how to pre-populate patient height and weight data, automatically calculates a BMI value and (bonus) writes it back into the patient record.
 
-#### Explored SDC concepts:
+## Explored SDC concepts:
 
 - Pre-population
 - Calculation
 - (Bonus) Extraction
 
-#### Step by step guide:
+## Step by step guide:
 
 1. Build the Questionnaire structure:
 
@@ -40,13 +40,13 @@ Build a BMI calculator Questionnaire that demonstrates how to pre-populate patie
 
 - Add a [extraction template](https://build.fhir.org/ig/HL7/sdc/extraction.html#template-based-extraction) to extract the calculated BMI result into a FHIR Observation resource for write-back
 
-#### Success Criteria:
+## Success Criteria:
 
 - **Pre-population**: Height and weight values are automatically populated for patient Carol Allen (https://gw.interop.community/QHConnectathon2025/open/Patient/smart-1577780).
 - **Calculation**: BMI is automatically computed.
 - **(Bonus) Extraction**: A valid FHIR Bundle containing one BMI Observation is extracted.
 
-#### If you get stuck:
+## If you get stuck:
 
 You can refer to the following completed/partially completed example Questionnaires below:
 
