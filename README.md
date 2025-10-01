@@ -4,7 +4,7 @@ This GitHub repository contains information and resources for the Questionnaire 
 
 ## Description
 
-This track explores how FHIR Questionnaires and the Structured Data Capture (SDC) specification can be used to streamline the collection and exchange of clinical data across health systems. In this track you will be:
+This track explores how FHIR Questionnaires and the Structured Data Capture (SDC) specification can be used to streamline the collection and exchange of clinical data across health systems. In this track you will:
 
 - Gain an understanding of the architecture for deployment of forms and how they can be used in a user-facing setting
 - Explore example implementations, including:
