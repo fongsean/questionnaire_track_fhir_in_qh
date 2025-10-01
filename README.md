@@ -62,7 +62,7 @@ Build and visualise Questionnaires via a GUI. Good place to start if you're not 
 
 **2. JSON-based Tools**
 
-Build and visualise Questionnaires directly in JSON. Using AI tools like ChatGPT now makes this process much faster and more efficient.
+Build and visualise Questionnaires directly in JSON. Using AI tools like ChatGPT makes this process much faster and more efficient.
 
 - [Smart Forms Playground](https://fhir-in-qh.smartforms.io/playground)
 
@@ -77,6 +77,8 @@ Public forms server: https://smartforms.csiro.au/api/fhir (append “/Questionna
 A Patient Management System (PMS) server provides access to patient and related clinical data to support pre-population and context for Questionnaires.
 
 Public FHIR endpoint for patient data: https://gw.interop.community/QHConnectathon2025/open
+
+MELD Sandbox SMART App Launch endpoint for Smart Forms: https://fhir-in-qh.smartforms.io/launch?iss=https%3A%2F%2Fgw.interop.community%2FQHConnectathon2025%2Fdata&launch=EtdWnN
 
 #### Terminology Server
 
@@ -94,7 +96,9 @@ Feel free to use this Zulip stream to discuss topics, share questions, and colla
 
 You can find a FHIR Questionnaire skeleton here: https://smartforms.csiro.au/api/fhir/Questionnaire/FHIRinQHSkeleton. Feel free to use any of the tools listed in [Questionnaire-building tools](#questionnaire-building-tools) to build your questionnaire.
 
-### 1. Beginner - BMI Calculator Questionnaire
+Choose any of the scenarios to tackle — you can work on one or more depending on your interest.
+
+### 1. BMI Calculator Questionnaire (Beginner-friendly)
 
 #### Objective:
 
@@ -103,7 +107,28 @@ Build a BMI calculator Questionnaire that demonstrates how to pre-populate patie
 #### Explored SDC concepts:
 
 - Pre-population
-- Calculation
+- Calculations
 - (Bonus) Extraction
 
-See the [detailed testing scenario guide](testing-scenarios/beginner-bmi.md) if you're interested in working on this.
+See the [detailed testing scenario guide](testing-scenarios/bmi-scenario.md) if you're interested in working on this.
+
+### 2. QH Adult Sepsis Risk Screening Questionnaire
+
+#### Objective:
+
+Build a Sepsis Risk Screening Questionnaire based on the [web version by Queensland Health](https://www.health.qld.gov.au/__data/assets/pdf_file/0019/1381330/adult-sepsis-screening-tool.pdf) that generates a screening outcome. This scenario demonstrates comprehensive usage of various SDC concepts.
+
+#### Explored SDC concepts:
+
+- Terminology binding
+- Pre-population
+- Conditional rendering
+- Advanced visual rendering
+
+See the [detailed testing scenario guide](testing-scenarios/sepsis-screening-scenario.md) if you're interested in working on this.
+
+### 3. Exploring Queensland Health Use Cases for FHIR Questionnaires
+
+#### Objective:
+
+Explore and build out potential Queensland Health use cases where FHIR Questionnaires could add value — identifying scenarios where structured, interoperable data capture would help improve workflows, patient care, or integration with existing systems.
