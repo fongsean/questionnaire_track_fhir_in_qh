@@ -27,8 +27,8 @@ This track explores how FHIR Questionnaires and the Structured Data Capture (SDC
 
 ## Resources
 
-- Day 1 Morning Session Slides - WIP
-- Track Slides - WIP
+- [Day 1 Morning Session Slides](FHIR_in_QH_Morning_Pres_Questionnaire_Track_PDF.pdf)
+- [Track Slides](FHIR_in_QH_Questionnaire_KickOff_PDF.pdf)
 
 ## Tools
 
