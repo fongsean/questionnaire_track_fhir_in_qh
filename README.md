@@ -24,6 +24,7 @@ This track explores how FHIR Questionnaires and the Structured Data Capture (SDC
 - R4 Questionnaire - https://hl7.org/fhir/R4/questionnaire.html
 - R4 QuestionnaireResponse - https://hl7.org/fhir/R4/questionnaireresponse.html
 - Structured Data Capture - https://hl7.org/fhir/uv/sdc/
+- SMART App Launch - https://hl7.org/fhir/smart-app-launch/app-launch.html
 
 ## Resources
 
@@ -74,11 +75,19 @@ Public forms server: https://smartforms.csiro.au/api/fhir (append “/Questionna
 
 #### Patient Management System (PMS) Server
 
-A Patient Management System (PMS) server provides access to patient and related clinical data to support pre-population and context for Questionnaires.
+A Patient Management System (PMS) server provides access to patient and related clinical data to support pre-population and context for Questionnaires. We use MELD Sandbox for this connectathon, and it also provides SMART on FHIR capabilities!
+
+MELD Sandbox: https://meld.interop.community/QHConnectathon2025
 
 Public FHIR endpoint for patient data: https://gw.interop.community/QHConnectathon2025/open
 
-MELD Sandbox SMART App Launch endpoint for Smart Forms: https://fhir-in-qh.smartforms.io/launch?iss=https%3A%2F%2Fgw.interop.community%2FQHConnectathon2025%2Fdata&launch=EtdWnN
+MELD Sandbox SMART App Launch endpoint for Smart Forms:
+
+1. Go to https://meld.interop.community/QHConnectathon2025/apps.
+2. Under "FHIR in QH Smart Forms", click "Launch".
+3. Choose any persona and any patient. You can add more patients if needed.
+4. Step 3 triggers a SMART App Launch sequence to Smart Forms with the selected patient context.
+5. IF you see your Patient and User come through in the Smart Forms interface, you're all set!
 
 #### Terminology Server
 
