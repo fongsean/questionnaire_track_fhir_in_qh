@@ -105,6 +105,12 @@ This app uses the [SMART on FHIR JavaScript client library](https://docs.smarthe
 
 https://codesandbox.io/p/sandbox/smart-on-fhir-0rd1q
 
+#### FHIRPath Debugging Tool
+
+A simple web-based tool to help you test and debug FHIRPath expressions.
+
+https://fhirpath-lab.com/FhirPath
+
 ## Zulip stream (chat.fhir.org)
 
 [chat.fhir.org](https://chat.fhir.org) is a FHIR Community forum/chat platform for FHIR discussion hosted on Zulip.
