@@ -86,6 +86,14 @@ A terminology server provides access to FHIR terminology value sets to be used i
 
 Public terminology server: https://r4.ontoserver.csiro.au/
 
+#### SMART on FHIR demo CodeSandbox
+
+A simple demo app that launches a Questionnaire via SMART on FHIR.
+
+This app uses the [SMART on FHIR JavaScript client library](https://docs.smarthealthit.org/client-js/).
+
+https://codesandbox.io/p/sandbox/smart-on-fhir-0rd1q
+
 ## Zulip stream (chat.fhir.org)
 
 [chat.fhir.org](https://chat.fhir.org) is a FHIR Community forum/chat platform for FHIR discussion hosted on Zulip.
