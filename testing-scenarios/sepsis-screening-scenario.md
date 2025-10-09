@@ -39,7 +39,7 @@ Build a Sepsis Risk Screening Questionnaire based on the [web version by Queensl
 
 - Add [launchContext](http://hl7.org/fhir/uv/sdc/expressions.html#launchContext) and [x-fhir-query variables](http://hl7.org/fhir/uv/sdc/expressions.html#x-fhir-query-enhancements) at the root-level
 - Use them to fetch relevant patient Observations to be used for pre-population.
-- If you're interested, you can view the queries that run behind the scenes during pre-population:
+- If you're interested, you can view the queries that run behind the scenes during pre-population. Use the patient Carol Allen (smart-1577780) as the test patient.
 
   [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](<https://app.getpostman.com/run-collection/22885901-bc216af3-bcf4-47a0-9c83-36474a7e46ab?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D22885901-bc216af3-bcf4-47a0-9c83-36474a7e46ab%26entityType%3Dcollection%26workspaceId%3D223dc781-848c-46d3-bd95-7735671fd8d1#?env%5BPatient%3A%20Carol%20Allen%20(smart-1577780)%5D=W3sia2V5IjoicGF0aWVudElkIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlLCJ0eXBlIjoiZGVmYXVsdCIsInNlc3Npb25WYWx1ZSI6InNtYXJ0LTE1Nzc3ODAiLCJjb21wbGV0ZVNlc3Npb25WYWx1ZSI6InNtYXJ0LTE1Nzc3ODAiLCJzZXNzaW9uSW5kZXgiOjB9XQ==>)
 
