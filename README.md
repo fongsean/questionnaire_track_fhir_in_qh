@@ -77,6 +77,8 @@ Public forms server: https://smartforms.csiro.au/api/fhir (append “/Questionna
 
 A Patient Management System (PMS) server provides access to patient and related clinical data to support pre-population and context for Questionnaires. We use MELD Sandbox for this connectathon, and it also provides SMART on FHIR capabilities!
 
+**Note: You should have received an email on registering for access to the MELD sandbox. If you did not, please let us know!**
+
 MELD Sandbox: https://meld.interop.community/QHConnectathon2025
 
 Public FHIR endpoint for patient data: https://gw.interop.community/QHConnectathon2025/open
