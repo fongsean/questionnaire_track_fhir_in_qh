@@ -85,7 +85,7 @@ MELD Sandbox: https://meld.interop.community/QHConnectathon2025
 
 Public FHIR endpoint for patient data: https://gw.interop.community/QHConnectathon2025/open
 
-For SMART on FHIR Launch from MELD Sandbox, check out this section:
+For SMART on FHIR Launch from MELD Sandbox, check out [SMART on FHIR Demo Links](#smart-on-fhir-demo-links).
 
 #### Terminology Server
 
