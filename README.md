@@ -2,6 +2,8 @@
 
 This GitHub repository contains information and resources for the Questionnaire track during the two-day FHIR in Queensland Health connectathon in Brisbane on 9-10 October 2025.
 
+**Edit 10/10/2025: Looking for links to the SMART on FHIR demo? Check the [SMART on FHIR Demo links](#smart-on-fhir-demo-links) for more information.**
+
 ## Description
 
 This track explores how FHIR Questionnaires and the Structured Data Capture (SDC) specification can be used to streamline the collection and exchange of clinical data across health systems. In this track you will:
@@ -83,13 +85,7 @@ MELD Sandbox: https://meld.interop.community/QHConnectathon2025
 
 Public FHIR endpoint for patient data: https://gw.interop.community/QHConnectathon2025/open
 
-MELD Sandbox SMART App Launch endpoint for Smart Forms:
-
-1. Go to https://meld.interop.community/QHConnectathon2025/apps.
-2. Under "FHIR in QH Smart Forms", click "Launch".
-3. Choose any persona and any patient. You can add more patients if needed.
-4. Step 3 triggers a SMART App Launch sequence to Smart Forms with the selected patient context.
-5. IF you see your Patient and User come through in the Smart Forms interface, you're all set!
+For SMART on FHIR Launch from MELD Sandbox, check out this section:
 
 #### Terminology Server
 
@@ -97,19 +93,39 @@ A terminology server provides access to FHIR terminology value sets to be used i
 
 Public terminology server: https://r4.ontoserver.csiro.au/
 
+#### FHIRPath Debugging Tool
+
+A simple web-based tool to help you test and debug FHIRPath expressions.
+
+https://fhirpath-lab.com/FhirPath
+
+## SMART on FHIR Demo Links
+
+#### MELD Sandbox
+
+**Note: You should have received an email on registering for access to the MELD sandbox. If you did not, please let us know!**
+
+1. Go to https://meld.interop.community/QHConnectathon2025/apps.
+2. Under "FHIR in QH Smart Forms", click "Launch".
+3. Choose any persona and any patient. You can add more patients if needed.
+4. Step 3 triggers a SMART App Launch sequence to Smart Forms with the selected patient context.
+5. IF you see your Patient and User come through in the Smart Forms interface, you're all set!
+
+#### CSIRO EHR Simulator
+
+Allows you to save QuestionnaireResponses and write back a BMI Observation to the patient record.
+
+This is connected to another FHIR server with the patient Kimberly Re-pop (pat-repop), but it gives you a visual demo of writing back to a patient record.
+
+[EHR Simulator demo configured with BMI Calculator Questionnaire](https://ehr.smartforms.io/?fhir_version=r4&launch_url=https%3A%2F%2Ffhir-in-qh.smartforms.io%2Flaunch&app_name=FHIR+in+QH+Smart+Forms+-+Q+Track&tab=0&launch=WzAsInBhdC1yZXBvcCIsInBoYXJtYWNpc3QiLCIiLDAsMCwwLCJsYXVuY2ggb3BlbmlkIGZoaXJVc2VyIG9ubGluZV9hY2Nlc3MgcGF0aWVudC9BbGxlcmd5SW50b2xlcmFuY2UuY3MgcGF0aWVudC9Db25kaXRpb24uY3MgcGF0aWVudC9FbmNvdW50ZXIuciBwYXRpZW50L0ltbXVuaXphdGlvbi5jcyBwYXRpZW50L01lZGljYXRpb24uciBwYXRpZW50L01lZGljYXRpb25TdGF0ZW1lbnQuY3MgcGF0aWVudC9PYnNlcnZhdGlvbi5jcyBwYXRpZW50L1BhdGllbnQuciBwYXRpZW50L1F1ZXN0aW9ubmFpcmVSZXNwb25zZS5jcnVzIHVzZXIvUHJhY3RpdGlvbmVyLnIgbGF1bmNoL3F1ZXN0aW9ubmFpcmU_cm9sZT1odHRwOi8vbnMuZWxlY3Ryb25pY2hlYWx0aC5uZXQuYXUvc21hcnQvcm9sZS9uZXciLCJodHRwczovL2ZoaXItaW4tcWguc21hcnRmb3Jtcy5pbyIsImE1N2Q5MGUzLTVmNjktNGI5Mi1hYTJlLTI5OTIxODA4NjNjMSIsIiIsIiIsIiIsIiIsMCwxLCJbe1wicm9sZVwiOlwiaHR0cDovL25zLmVsZWN0cm9uaWNoZWFsdGgubmV0LmF1L3NtYXJ0L3JvbGUvbmV3XCIsXCJ0eXBlXCI6XCJRdWVzdGlvbm5haXJlXCIsXCJjYW5vbmljYWxcIjpcImh0dHBzOi8vc21hcnRmb3Jtcy5jc2lyby5hdS9kb2NzL3NkYy9leHRyYWN0aW9uL3RlbXBsYXRlLTF8MC4xLjBcIn1dIiwiaHR0cHM6Ly9wcm94eS5zbWFydGZvcm1zLmlvL3YvcjQvZmhpciIsZmFsc2Vd&jwks_tab=0&validation=1)
+
 #### SMART on FHIR demo CodeSandbox
 
 A simple demo app that launches a Questionnaire via SMART on FHIR.
 
 This app uses the [SMART on FHIR JavaScript client library](https://docs.smarthealthit.org/client-js/).
 
-https://codesandbox.io/p/sandbox/smart-on-fhir-0rd1q
-
-#### FHIRPath Debugging Tool
-
-A simple web-based tool to help you test and debug FHIRPath expressions.
-
-https://fhirpath-lab.com/FhirPath
+[CodeSandbox App Demo](https://codesandbox.io/p/sandbox/smart-on-fhir-0rd1q)
 
 ## Zulip stream (chat.fhir.org)
 
